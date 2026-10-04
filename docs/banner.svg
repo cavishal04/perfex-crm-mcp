@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 600" width="1180" height="600" role="img" aria-labelledby="t d">
+  <title id="t">Perfex CRM AI Connector – MCP server and AI chat assistant</title>
+  <desc id="d">Free Perfex CRM module that connects Claude, ChatGPT, Gemini and any MCP client to Perfex CRM, with an in-CRM AI chatbot and role-based permissions.</desc>
+  <defs>
+    <radialGradient id="bg" cx="15%" cy="0%" r="95%">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0.6" stop-color="#0b1220"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <clipPath id="card"><rect x="684" y="32" width="452" height="536" rx="28"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .chip rect { fill: #ffffff; fill-opacity: .08; stroke: #ffffff; stroke-opacity: .14; stroke-width: 2; }
+    .chip text { fill: #fff; font-size: 21px; font-weight: 600; }
+    .tick { fill: #4ade80; }
+  </style>
+
+  <rect width="1180" height="600" fill="url(#bg)"/>
+  <rect width="1180" height="600" fill="url(#grid)"/>
+
+  <!-- left column -->
+  <rect x="56" y="50" width="344" height="40" rx="20" fill="none" stroke="#93c5fd" stroke-opacity=".45" stroke-width="2"/>
+  <text x="228" y="77" text-anchor="middle" fill="#93c5fd" font-size="19" font-weight="700" letter-spacing="2.5">FREE PERFEX CRM MODULE</text>
+
+  <text x="56" y="166" fill="#ffffff" font-size="58" font-weight="800" letter-spacing="-1">AI Connector</text>
+  <text x="56" y="228" fill="#60a5fa" font-size="58" font-weight="800" letter-spacing="-1">&amp; Chat Assistant</text>
+
+  <text x="56" y="282" fill="#cbd5e1" font-size="24">MCP server for Claude, ChatGPT, Gemini &amp; any AI.</text>
+  <text x="56" y="314" fill="#cbd5e1" font-size="24">Every action respects the user's own role.</text>
+
+  <g class="chip"><rect x="56" y="342" width="172" height="48" rx="10"/><text x="76" y="374"><tspan class="tick">✓</tspan> MCP Server</text></g>
+  <g class="chip"><rect x="242" y="342" width="208" height="48" rx="10"/><text x="262" y="374"><tspan class="tick">✓</tspan> In-CRM AI Chat</text></g>
+  <g class="chip"><rect x="56" y="402" width="246" height="48" rx="10"/><text x="76" y="434"><tspan class="tick">✓</tspan> Role-Based Access</text></g>
+  <g class="chip"><rect x="316" y="402" width="210" height="48" rx="10"/><text x="336" y="434"><tspan class="tick">✓</tspan> 60 CRM Actions</text></g>
+  <g class="chip"><rect x="56" y="462" width="172" height="48" rx="10"/><text x="76" y="494"><tspan class="tick">✓</tspan> SaaS Ready</text></g>
+  <g class="chip"><rect x="242" y="462" width="208" height="48" rx="10"/><text x="262" y="494"><tspan class="tick">✓</tspan> Open Source</text></g>
+
+  <text x="56" y="560" fill="#94a3b8" font-size="21">github.com/cavishal04/perfex-crm-mcp</text>
+
+  <!-- chat card -->
+  <g filter="url(#shadow)"><rect x="684" y="32" width="452" height="536" rx="28" fill="#ffffff"/></g>
+  <g clip-path="url(#card)">
+    <rect x="684" y="32" width="452" height="88" fill="#2563eb"/>
+    <text x="708" y="72" fill="#fff" font-size="23" font-weight="700">AI Assistant</text>
+    <text x="708" y="100" fill="#dbeafe" font-size="18">Works with your CRM permissions</text>
+
+    <rect x="876" y="140" width="242" height="48" rx="20" fill="#2563eb"/>
+    <text x="997" y="171" text-anchor="middle" fill="#fff" font-size="19">Show overdue invoices</text>
+
+    <rect x="704" y="202" width="138" height="30" rx="15" fill="#dcfce7"/>
+    <text x="773" y="223" text-anchor="middle" fill="#166534" font-size="16">✓ list invoices</text>
+
+    <rect x="704" y="246" width="304" height="76" rx="20" fill="#f1f5f9"/>
+    <text x="722" y="278" fill="#0f172a" font-size="19"><tspan font-weight="700">3 overdue</tspan> · $4,250 total</text>
+    <text x="722" y="306" fill="#0f172a" font-size="19">• INV-0012 Acme Ltd – $2,100</text>
+
+    <rect x="898" y="338" width="220" height="48" rx="20" fill="#2563eb"/>
+    <text x="1008" y="369" text-anchor="middle" fill="#fff" font-size="19">Add a follow-up task</text>
+
+    <rect x="704" y="402" width="414" height="128" fill="#fffbeb"/>
+    <rect x="704" y="402" width="6" height="128" fill="#f59e0b"/>
+    <text x="728" y="434" fill="#0f172a" font-size="19" font-weight="700">Approve this change?</text>
+    <text x="728" y="462" fill="#0f172a" font-size="18">create task · "Follow up INV-0012"</text>
+    <rect x="728" y="478" width="110" height="36" rx="8" fill="#2563eb"/>
+    <text x="783" y="502" text-anchor="middle" fill="#fff" font-size="17" font-weight="700">Approve</text>
+    <rect x="850" y="478" width="98" height="36" rx="8" fill="#e2e8f0"/>
+    <text x="899" y="502" text-anchor="middle" fill="#334155" font-size="17" font-weight="700">Cancel</text>
+  </g>
+  <circle cx="1128" cy="552" r="34" fill="#2563eb" stroke="#fff" stroke-width="4"/>
+  <path d="M1112 538h32a5 5 0 0 1 5 5v16a5 5 0 0 1-5 5h-16l-9 8v-8h-7a5 5 0 0 1-5-5v-16a5 5 0 0 1 5-5z" fill="#fff"/>
+</svg>
